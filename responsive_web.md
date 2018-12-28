@@ -4,15 +4,15 @@
 반응형웹은 데스크탑, 노트북, 넷북, 태블릿, 스마트폰, 스마트TV 등 N-Screen의 Multi Device에 어떠한 사용자도 제약없이 접근할 수 있도록 제공하는 웹을 말한다.
 
 ## 2. 반응형 웹디자인의 특징
-**반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](./img/responsive01.jpg)  
-**플로우 (Flow)** [Flow and Static](./img/responsive02.jpg)  
-**상대적인 요소들 (Relative units)** [Relative units](./img/responsive04.jpg)  
-**분기점 (Breakpoints)** [Flow and Static](./img/responsive06.jpg)  
-**최대값과 최소값 (Max and Min values)** [Max and Min](./img/responsive05.jpg)  
-**그룹 지은 요소들 (Nested objects)** [Nested objects](./img/responsive06.jpg)  
-**모바일 혹은 데스크톱 우선 작업 (Mobile or Desktop first)** [Mobile or Desktop first](./img/responsive07.jpg)  
-**웹폰트와 시스템 폰트 (Webfonts vs System fonts)** [Webfonts vs System fonts](./img/responsive08.jpg)  
-**비트맵 방식과 벡터 방식 (Bitmap images vs Vectors)** [Bitmap images vs Vectors](./img/responsive09.jpg)  
+- **반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](./img/responsive01.jpg)  
+- **플로우 (Flow)** [Flow and Static](./img/responsive02.jpg)  
+- **상대적인 요소들 (Relative units)** [Relative units](./img/responsive04.jpg)  
+- **분기점 (Breakpoints)** [Flow and Static](./img/responsive06.jpg)  
+- **최대값과 최소값 (Max and Min values)** [Max and Min](./img/responsive05.jpg)  
+- **그룹 지은 요소들 (Nested objects)** [Nested objects](./img/responsive06.jpg)  
+- **모바일 혹은 데스크톱 우선 작업 (Mobile or Desktop first)** [Mobile or Desktop first](./img/responsive07.jpg)  
+- **웹폰트와 시스템 폰트 (Webfonts vs System fonts)** [Webfonts vs System fonts](./img/responsive08.jpg)  
+- **비트맵 방식과 벡터 방식 (Bitmap images vs Vectors)** [Bitmap images vs Vectors](./img/responsive09.jpg)  
 
 ## 3. 전략
 + **"최소/최대" 뷰포트 사이즈에 우선 집중하기**  
