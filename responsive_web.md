@@ -4,15 +4,15 @@
 반응형웹은 데스크탑, 노트북, 넷북, 태블릿, 스마트폰, 스마트TV 등 N-Screen의 Multi Device에 어떠한 사용자도 제약없이 접근할 수 있도록 제공하는 웹을 말한다.
 
 ## 2. 반응형 웹디자인의 특징
-- **반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](http://oingdoing.com/tips/all/img/responsive01.jpg)  
-- **플로우 (Flow)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
-- **상대적인 요소들 (Relative units)** [Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg)  
-- **분기점 (Breakpoints)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive06.jpg)  
-- **최대값과 최소값 (Max and Min values)** [Max and Min](http://oingdoing.com/tips/all/img/responsive05.jpg)  
-- **그룹 지은 요소들 (Nested objects)** [Nested objects](http://oingdoing.com/tips/all/img/responsive06.jpg)  
-- **모바일 혹은 데스크톱 우선 작업 (Mobile or Desktop first)** [Mobile or Desktop first](http://oingdoing.com/tips/all/img/responsive07.jpg)  
-- **웹폰트와 시스템 폰트 (Webfonts vs System fonts)** [Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg)  
-- **비트맵 방식과 벡터 방식 (Bitmap images vs Vectors)** [Bitmap images vs Vectors](http://oingdoing.com/tips/all/img/responsive09.jpg)  
+- **반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](http://oingdoing.com/tips/all/img/responsive01.jpg){:target="_blank"}  
+- **플로우 (Flow)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg){:target="_blank"}  
+- **상대적인 요소들 (Relative units)** [Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg){:target="_blank"}  
+- **분기점 (Breakpoints)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive06.jpg){:target="_blank"}  
+- **최대값과 최소값 (Max and Min values)** [Max and Min](http://oingdoing.com/tips/all/img/responsive05.jpg){:target="_blank"}  
+- **그룹 지은 요소들 (Nested objects)** [Nested objects](http://oingdoing.com/tips/all/img/responsive06.jpg){:target="_blank"}  
+- **모바일 혹은 데스크톱 우선 작업 (Mobile or Desktop first)** [Mobile or Desktop first](http://oingdoing.com/tips/all/img/responsive07.jpg){:target="_blank"}  
+- **웹폰트와 시스템 폰트 (Webfonts vs System fonts)** [Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg){:target="_blank"}  
+- **비트맵 방식과 벡터 방식 (Bitmap images vs Vectors)** [Bitmap images vs Vectors](http://oingdoing.com/tips/all/img/responsive09.jpg){:target="_blank"}  
 
 ## 3. 전략
 + **"최소/최대" 뷰포트 사이즈에 우선 집중하기**  
@@ -43,20 +43,20 @@
 UI 버튼 크기는 사람들의 손가락 크기에 의해 제한됩니다. 특정 버튼이 사용자의 손가락보다 너무 작을 경우, 당연히 터치 정확도가 떨어지겠죠.  
 사용성의 오류가 생기는 것입니다. 그래서 UI 버튼은 손가락 평균 크기에 맞게 디자인하는 것이 가장 이상적입니다.  
 마찬가지로 앞서 말했듯이 필요에 따라 버튼 크기 조절 기능을 추가하는 것도 방법일 수 있습니다.  
-+ [추가정보](https://brunch.co.kr/@chulhochoiucj0/8)  
++ [추가정보](https://brunch.co.kr/@chulhochoiucj0/8){:target="_blank"}  
 
 ## 4. 반응형 디자인 패턴 (레이아웃)
-+ [유동형 (Mostly Fluid)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/mostly-fluid.html)  
-+ [열 끌어놓기(Column Drop)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/column-drop.html)  
-+ [레이아웃 시프터(Layout shifter)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/layout-shifter.html)  
-+ [미세 조정(Tiny tweaks)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/tiny-tweaks.html)  
-+ [오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html)  
++ [유동형 (Mostly Fluid)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/mostly-fluid.html){:target="_blank"}  
++ [열 끌어놓기(Column Drop)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/column-drop.html){:target="_blank"}  
++ [레이아웃 시프터(Layout shifter)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/layout-shifter.html){:target="_blank"}  
++ [미세 조정(Tiny tweaks)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/tiny-tweaks.html){:target="_blank"}  
++ [오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html){:target="_blank"}  
 
 ## 5. 반응형 웹의 퍼블리싱 이슈
 ### 반응형웹 마크업 가이드 제작 전 고민사항
 **미디어쿼리 해상도 분기문제**  
 : 어느 포인트에서 해상도를 나눌 것인가? / 해상도기준(320,568,768,1024,1025~)  
-─ [반응형 시안 내부 주요 분기점 자료](http://oingdoing.com/tips/all/img/rw_guideline.jpg)  
+─ [반응형 시안 내부 주요 분기점 자료](http://oingdoing.com/tips/all/img/rw_guideline.jpg){:target="_blank"}  
 > max-width : 1024px 이상 일 경우 → 좌·우측 20px(총 40px)이상 유지  
 > max-width : 1023px 이하 일 경우 → 좌·우측 10px이상 유지  
 
@@ -91,6 +91,6 @@ UI 버튼 크기는 사람들의 손가락 크기에 의해 제한됩니다. 특
 
 
 #### [참고]
-> [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
-> [Google Web Fundamentals, "반응형 웹 디자인 패턴"](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko)  
-> [디자인 아트, "반응형 디자인 패턴"](https://m.blog.naver.com/dartplus/221202644512)
+> [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/){:target="_blank"}  
+> [Google Web Fundamentals, "반응형 웹 디자인 패턴"](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko){:target="_blank"}  
+> [디자인 아트, "반응형 디자인 패턴"](https://m.blog.naver.com/dartplus/221202644512){:target="_blank"}
