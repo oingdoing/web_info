@@ -90,4 +90,4 @@ LG화학 때 보니 <br> 사용하지 않고 자연적으로 줄바꿈 되게 (w
 > [Google Web Fundamentals, "반응형 웹 디자인 패턴"](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko)  
 > [디자인 아트, "반응형 디자인 패턴"](https://m.blog.naver.com/dartplus/221202644512)
 
-**the vsc connect to git**  ****
+**the vsc connect to git**  
