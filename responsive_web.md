@@ -85,11 +85,6 @@ UI 버튼 크기는 사람들의 손가락 크기에 의해 제한됩니다. 특
 **최대 글자 수 & 줄바꿈**  
 LG화학 때 보니 <br> 사용하지 않고 자연적으로 줄바꿈 되게 (word-break)  
 
-**for git branch test**  
-테스트용 텍스트 추가  
-2nd test
-
-
 [참고]
 > [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
 > [Google Web Fundamentals, "반응형 웹 디자인 패턴"](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko)  
