@@ -4,7 +4,7 @@
 반응형웹은 데스크탑, 노트북, 넷북, 태블릿, 스마트폰, 스마트TV 등 N-Screen의 Multi Device에 어떠한 사용자도 제약없이 접근할 수 있도록 제공하는 웹을 말한다.
 
 ## 2. 반응형 웹디자인의 특징
-**반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](http://oingdoing.com/tips/all/img/responsive01.jpg)  
+**반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](/web_info/responsive/img/responsive01.jpg)  
 **플로우 (Flow)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
 **상대적인 요소들 (Relative units)** [Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg)  
 **분기점 (Breakpoints)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive06.jpg)  
