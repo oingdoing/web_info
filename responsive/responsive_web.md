@@ -1,9 +1,13 @@
 # 디자이너와 퍼블리셔가 함께하는 반응형 웹
+
 > 2018/12/24, SAMY
+
 ## 1. 개요
+
 반응형웹은 데스크탑, 노트북, 넷북, 태블릿, 스마트폰, 스마트TV 등 N-Screen의 Multi Device에 어떠한 사용자도 제약없이 접근할 수 있도록 제공하는 웹을 말한다.
 
 ## 2. 반응형 웹디자인의 특징
+
 **반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](./img/responsive01.jpg)  
 **플로우 (Flow)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
 **상대적인 요소들 (Relative units)** [Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg)  
@@ -14,7 +18,8 @@
 **웹폰트와 시스템 폰트 (Webfonts vs System fonts)** [Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg)  
 **비트맵 방식과 벡터 방식 (Bitmap images vs Vectors)** [Bitmap images vs Vectors](http://oingdoing.com/tips/all/img/responsive09.jpg)  
 
-## 3. 전략
+## 3. 전략 (작업순서 및 고려사항)
+
 + **"최소/최대" 뷰포트 사이즈에 우선 집중하기**  
 시작부터 반응형으로 만들어지는 디자인이 있긴 하지만, 아직도 대다수의 디자인이 정적인 것에서부터 시작합니다. 반응형으로 시작하는거라면 우선 뷰포트 가로와 높이를 정하고, 이에 맞춰 스케치하고 마크업을 진행해야 합니다. 
 하지만 그 순간에 몇 가지 물음이 생깁니다: 얼마만큼의 크기로 잡을 것인가? 테크니컬한 제약 때문에 어떤 디바이스를 우선적으로 생각해야 하는가?
@@ -46,6 +51,9 @@ UI 버튼 크기는 사람들의 손가락 크기에 의해 제한됩니다. 특
 + [추가정보](https://brunch.co.kr/@chulhochoiucj0/8)  
 
 ## 4. 반응형 디자인 패턴 (레이아웃)
+
+: 뷰포트 변경에 따라 그리드 변화를 고려하여 레이아웃을 디자인한다.
+
 + [유동형 (Mostly Fluid)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/mostly-fluid.html)  
 + [열 끌어놓기(Column Drop)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/column-drop.html)  
 + [레이아웃 시프터(Layout shifter)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/layout-shifter.html)  
@@ -53,7 +61,9 @@ UI 버튼 크기는 사람들의 손가락 크기에 의해 제한됩니다. 특
 + [오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html)  
 
 ## 5. 반응형 웹의 퍼블리싱 이슈
+
 ### 반응형웹 마크업 가이드 제작 전 고민사항
+
 **미디어쿼리 해상도 분기문제**  
 : 어느 포인트에서 해상도를 나눌 것인가? / 해상도기준(320,568,768,1024,1025~)  
 ─ [반응형 시안 내부 주요 분기점 자료](http://oingdoing.com/tips/all/img/rw_guideline.jpg)  
@@ -77,9 +87,7 @@ UI 버튼 크기는 사람들의 손가락 크기에 의해 제한됩니다. 특
 배율에 따른 px과 상대단위 변화    
 
 **최소단위 뷰포트(320px)에서의 문제점 해결**  
-미디어쿼리 뷰포트 구분하여 따로 스타일 지정    
-
-
+미디어쿼리 뷰포트 구분하여 따로 스타일 지정  
 
 [참고]
 > [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
