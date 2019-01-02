@@ -8,36 +8,62 @@
 
 ## 2. 반응형 웹디자인의 특징
 
-**반응형 웹디자인 vs 적응형 웹디자인** [Responsive and Adaptive](./img/responsive01.jpg)  
-**플로우 (Flow)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
-**상대적인 요소들 (Relative units)** [Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg)  
-**분기점 (Breakpoints)** [Flow and Static](http://oingdoing.com/tips/all/img/responsive06.jpg)  
-**최대값과 최소값 (Max and Min values)** [Max and Min](http://oingdoing.com/tips/all/img/responsive05.jpg)  
-**그룹 지은 요소들 (Nested objects)** [Nested objects](http://oingdoing.com/tips/all/img/responsive06.jpg)  
-**모바일 혹은 데스크톱 우선 작업 (Mobile or Desktop first)** [Mobile or Desktop first](http://oingdoing.com/tips/all/img/responsive07.jpg)  
-**웹폰트와 시스템 폰트 (Webfonts vs System fonts)** [Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg)  
-**비트맵 방식과 벡터 방식 (Bitmap images vs Vectors)** [Bitmap images vs Vectors](http://oingdoing.com/tips/all/img/responsive09.jpg)  
+**반응형 웹디자인 vs 적응형 웹디자인**  
+![Responsive and Adaptive](./img/responsive01.jpg)  
+: 반응형 웹은 하나의 템플릿을 사용해 모든 기기에 대응하는데 반해, 적응형 웹은 선별된 기기 유형에 따라 별도의 독립적인 템플릿이 요구됩니다. 즉, 별도 페이지 제작이 필요합니다.  
+쉡게 말해, 하나의 사이트로 PC와 모바일이 모두 접근 가능하다면 반응형이고 모바일로 접속시에 'm' 또는 'mobile'이 붙는 새로운 주소로 변환 시는 적응형이라 할 수 있습니다.  
+
+**상대적인 요소들 (Relative units)**  
+![Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg)  
+: 반응형 웹의 가장 큰 목적은 각 디바이스에 적합한 환경을 유동적으로 제공하는 것입니다. 이를 위해서는 고정 단위인 'px'이 아니라 'vw, em, rem, %' 등의 상대 단위가 필요합니다.  
+만약 모바일을 위한 작업에서 모든 단위를 px로 유지한다면 그림과 같이 viewport의 크기에 따라 컨텐츠가 잘리거나 모자라게 보일 수있습니다.  
+
+**분기점 (Breakpoints)**  
+![Flow and Static](http://oingdoing.com/tips/all/img/responsive06.jpg)  
+: PC와 mobile은 viewport의 크기에 따라 레이아웃이 달라지는 것이 필수입니다. 그러다 보면 열(Column)의 개수도 달라집니다. 보통 pc보다 모바일이 열 개수가 적습니다.  
+이때, 어디에서 열을 끊어줄 것인지를 미리 정해놓는다면 환경에 적합한 디자인이 완성될 것입니다.  
+
+**최대값과 최소값 (Max and Min values)**  
+![Max and Min](http://oingdoing.com/tips/all/img/responsive05.jpg)  
+
+**플로우 (Flow)**  
+![Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
+: 컨텐츠 크기 변화에 따라 주변에 함께 있는 컨텐츠의 흐름을 어떻게 할 것인가 정의합니다.  
+그림과 같이, Flow로 둔다면 함께 움직이는 것이고 static으로 둔다면 주변 컨텐츠는 고정되고 해당 컨텐츠만 변화하게 됩니다.  
+
+**웹폰트와 시스템 폰트 (Webfonts vs System fonts)**  
+![Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg)  
+: 
+
 
 ## 3. 전략 (작업순서 및 고려사항)
 
-+ **"최소/최대" 뷰포트 사이즈에 우선 집중하기**  
-> - 디바이스 최소 사이즈 정하기(viewport 이해하기)
++ **3-1. 모바일 환경을 우선하여 기획 및 디자인하기**  
+: 이것은 모바일 환경을 먼저 디자인 하면 보다 효과적이고 창조적인 디자인을 할 수 있다는 전략입니다.  
 
-+ **이미지 파일 전략 미리 가지기**  
-: 일반 디스플레이용과 고해상도용
-: pc와 mobile용
-                 
-+ **작게 생각하기 (모듈형 디자인)**  
-: 작고 재사용이 가능한 구성요소에 우선적으로 집중 : 서로 다른 디바이스를 넘나들면서도 동일한 UX와 비주얼을 제공
-  
-+ **모바일 환경을 우선하여 기획 및 디자인하기**  
-이것은 모바일 환경을 먼저 디자인 하면 보다 효과적이고 창조적인 디자인을 할 수 있다는 전략
-> - 모바일 우선 작업(css도 마찬가지..)
-> 모바일의 엄청난 성장 = 기회 (GROWTH = OPPORTUNITY)  
-> 모바일 기기의 제약 = 집중 (CONSTRAINTS = FOCUS)  
-> 모바일 기기의 기능 = 혁신 (CAPABILITIES = INNOVATION)  
++ **3-2. 디바이스 최소 사이즈 정하기**  
+─ viewport 이해하기  
+: vierport는 한마디로 지금 보고 있는 브라우저 창의 크기라고 할 수 있습니다. 정해진 바는 없으나 일반적으로 아래와 같은 기준애 따라 작업합니다.  
+    + moible : 360px (최소 320 ~ 최대 768)
+    + tablet : 768px (최소 718 ~ 최대 1279)
+    + pc : 1280px (최소 1024 ~ 최대 1400)
 
-+ **[애매한 버튼 크기는 손가락 크기로 (주로 엄지)](http://yoon-talk.tistory.com/695)**  
++ **3-3. 분기점 정하기**
+
++ **3-4. 이미지 전략 세우기**  
+    - 백터 이미지, 아트웍의 사용
+    : 웹 환경에서는 이미지 개수가 많을수록 많은 리소스를 잡아먹게 됩니다. 따라서 우리는 반응형 작업시 하나의 이미지로 여러 기기를 대응할 수 있는 방법을 선호합니다.  
+    그래서 하나의 디자인 파일로 여러 기기에 대응이 가능하게 이미지를 추출해야 합니다. 이를 위해 이미지 파일은 최대한 크기 변형에도 문제 없는 아트웍 사용을 권장합니다. (2배 사이즈 이미지)  
+    > [제안] 아이콘이나 로고에 SVG 이미지를 사용하기  
+    > [제안] 아이콘 글꼴 사용하기 ([ex. FontAwesome)](https://fontawesome.com/)  
+    - 디바이스별 이미지 표시
+    : 앞서 선택한 하나의 이미지로 여러 기기에 대응하는 방법으로는 디바이스별로 이미지를 어떻게 표현하는 것이 좋을지 선택해야 합니다.  
+    ![art_direction](./img/art-direction.png)  
+
++ **3-5. 텍스트 줄바꿈 정의하기**
+
+
+
 + [추가정보](https://brunch.co.kr/@chulhochoiucj0/8)  
 
 ## 4. 반응형 디자인 패턴 (레이아웃)
@@ -51,13 +77,6 @@
 + [오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html)  
 
 
-> ## 디자인
-> - 디바이스 최소 사이즈 정하기(viewport 이해하기) @
-> - 분기점(Break point) 정하기
-> - 모바일 우선 작업(css도 마찬가지..) @
-> - 비율(이미지, 레이아웃)에 맞춰 디자인하기 @
-> - 모바일이나 테블릿의 해상도 지원 여부에 따라 2배 이미지로 사용(배율 축소). @<br>
-> (벡터 이미지를 사용하는것이 좋으며 아이콘이나 로고등 SVG는 어떨까 ?)
 > - 모바일에서 폰트 사이즈가 디바이스 넓이에 맞춰 비율대로 증가 할 수 있는가?<br>
 > (vw 사용하여 가능하지만.. 정해진 폰트 사이즈로 보여질것인지 넓이에 따라 사이즈가 커저야 할 지 고민)
 > - 각 디바이스 별 이미지 표시(PC, Tablet, Mobile)@
