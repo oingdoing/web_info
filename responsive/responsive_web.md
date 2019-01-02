@@ -17,25 +17,25 @@
 : 반응형 웹의 가장 큰 목적은 각 디바이스에 적합한 환경을 유동적으로 제공하는 것입니다. 이를 위해서는 고정 단위인 'px'이 아니라 'vw, em, rem, %' 등의 상대 단위가 필요합니다.  
 만약 모바일을 위한 작업에서 모든 단위를 px로 유지한다면 그림과 같이 viewport의 크기에 따라 컨텐츠가 잘리거나 모자라게 보일 수있습니다.  
 ![Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg)  
-
+<br><br>
 **분기점 (Breakpoints)**  
 : PC와 mobile은 viewport의 크기에 따라 레이아웃이 달라지는 것이 필수입니다. 그러다 보면 열(Column)의 개수도 달라집니다. 보통 pc보다 모바일이 열 개수가 적습니다.  
 이때, 어디에서 열을 끊어줄 것인지를 미리 정해놓는다면 환경에 적합한 디자인이 완성될 것입니다.  
 ![Flow and Static](http://oingdoing.com/tips/all/img/responsive06.jpg)  
-
+<br><br>
 **최대값과 최소값 (Max and Min values)**  
 ![Max and Min](http://oingdoing.com/tips/all/img/responsive05.jpg)  
-
+<br><br>
 **플로우 (Flow)**  
 : 컨텐츠 크기 변화에 따라 주변에 함께 있는 컨텐츠의 흐름을 어떻게 할 것인가 정의합니다.  
 그림과 같이, Flow로 둔다면 함께 움직이는 것이고 static으로 둔다면 주변 컨텐츠는 고정되고 해당 컨텐츠만 변화하게 됩니다.  
 ![Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
-
+<br><br>
 **웹폰트와 시스템 폰트 (Webfonts vs System fonts)**  
 : 
 ![Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg)  
 
-
+<br><br><br><br>
 ## 3. 전략 (작업순서 및 고려사항)
 
 + **3-1. 모바일 환경을 우선하여 기획 및 디자인하기**  
@@ -75,7 +75,7 @@
 
 + [추가정보](https://brunch.co.kr/@chulhochoiucj0/8)  
 
-
+<br><br><br><br>
 ## 4. 반응형 디자인 패턴 (레이아웃)
 
 : 뷰포트 변경에 따라 그리드 변화를 고려하여 레이아웃을 디자인한다.
@@ -90,6 +90,8 @@
 > - 모바일에서 폰트 사이즈가 디바이스 넓이에 맞춰 비율대로 증가 할 수 있는가?<br>
 > (vw 사용하여 가능하지만.. 정해진 폰트 사이즈로 보여질것인지 넓이에 따라 사이즈가 커저야 할 지 고민)
 > - Hover&터치 효과 고려
+
+<br><br><br><br>
 
 ## 5. 반응형 웹의 퍼블리싱 이슈
 
