@@ -48,6 +48,24 @@
 + [미세 조정(Tiny tweaks)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/tiny-tweaks.html)  
 + [오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html)  
 
+
+> ## 디자인
+> - 디바이스 최소 사이즈 정하기(viewport 이해하기)
+> - 분기점(Break point) 정하기
+> - 모바일 우선 작업(css도 마찬가지..)
+> - 비율(이미지, 레이아웃)에 맞춰 디자인하기
+> - 모바일이나 테블릿의 해상도 지원 여부에 따라 2배 이미지로 사용(배율 축소). <br>
+> (벡터 이미지를 사용하는것이 좋으며 아이콘이나 로고등 SVG는 어떨까 ?)
+> - 모바일에서 폰트 사이즈가 디바이스 넓이에 맞춰 비율대로 증가 할 수 있는가?<br>
+> (vw 사용하여 가능하지만.. 정해진 폰트 사이즈로 보여질것인지 넓이에 따라 사이즈가 커저야 할 지 고민)
+> - 각 디바이스 별 이미지 표시(PC, Tablet, Mobile)
+> 1. 이미지 비율에 맞춰 표시
+> 2. 높이는 고정이고 이미지가 가운데로 고정
+> 3. 각 디바이스 마다 이미지의 높이와 보이지는 부분이 다름
+> - 각 디바이스 별 텍스트 줄바꿈(PC, Tablet, Mobile)
+> (디바이스마다 줄바꿈이 다른경우 - 반응형에서 텍스트 줄바꿈은 단어별 줄내림으로 협의)
+> - Hover&터치 효과 고려
+
 ## 5. 반응형 웹의 퍼블리싱 이슈
 
 ### 반응형웹 마크업 가이드 제작 전 고민사항
