@@ -79,8 +79,7 @@ UI 버튼 크기는 사람들의 손가락 크기에 의해 제한됩니다. 특
 **최소단위 뷰포트(320px)에서의 문제점 해결**  
 미디어쿼리 뷰포트 구분하여 따로 스타일 지정    
 
-**최대 글자 수 & 줄바꿈**  
-LG화학 때 보니 <br> 사용하지 않고 자연적으로 줄바꿈 되게 (word-break)  
+
 
 [참고]
 > [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
