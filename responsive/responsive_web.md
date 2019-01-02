@@ -8,30 +8,30 @@
 
 ## 2. 반응형 웹디자인의 특징
 
-**반응형 웹디자인 vs 적응형 웹디자인**  <br><br>
+**반응형 웹디자인 vs 적응형 웹디자인**  <br>
 : 반응형 웹은 하나의 템플릿을 사용해 모든 기기에 대응하는데 반해, 적응형 웹은 선별된 기기 유형에 따라 별도의 독립적인 템플릿이 요구됩니다. 즉, 별도 페이지 제작이 필요합니다.  
-쉽게 말해, 하나의 사이트로 PC와 모바일이 모두 접근 가능하다면 반응형인 사이트로 모바일 접속시에 'm' 또는 'mobile'이 붙는 새로운 주소로 변환 시는 적응형이라 할 수 있습니다.  <br>
+쉽게 말해, 하나의 사이트로 PC와 모바일이 모두 접근 가능하다면 반응형인 사이트로 모바일 접속시에 'm' 또는 'mobile'이 붙는 새로운 주소로 변환 시는 적응형이라 할 수 있습니다.  <br><br>
 ![Responsive and Adaptive](./img/responsive01.jpg)  
 <br><br>
-**상대적인 요소들 (Relative units)**  <br><br>
+**상대적인 요소들 (Relative units)**  <br>
 : 반응형 웹의 가장 큰 목적은 각 디바이스에 적합한 환경을 유동적으로 제공하는 것입니다. 이를 위해서는 고정 단위인 'px'이 아니라 'vw, em, rem, %' 등의 상대 단위가 필요합니다.  
-만약 모바일을 위한 작업에서 모든 단위를 px로 유지한다면 그림과 같이 viewport의 크기에 따라 컨텐츠가 잘리거나 모자라게 보일 수있습니다.  <br>
+만약 모바일을 위한 작업에서 모든 단위를 px로 유지한다면 그림과 같이 viewport의 크기에 따라 컨텐츠가 잘리거나 모자라게 보일 수있습니다.  <br><br>
 ![Relative units](http://oingdoing.com/tips/all/img/responsive04.jpg)  
 <br><br>
-**분기점 (Breakpoints)**  <br><br>
+**분기점 (Breakpoints)**  <br>
 : PC와 mobile은 viewport의 크기에 따라 레이아웃이 달라지는 것이 필수입니다. 그러다 보면 열(Column)의 개수도 달라집니다. 보통 pc보다 모바일이 열 개수가 적습니다.  
-이때, 어디에서 열을 끊어줄 것인지를 미리 정해놓는다면 환경에 적합한 디자인이 완성될 것입니다.  <br>
+이때, 어디에서 열을 끊어줄 것인지를 미리 정해놓는다면 환경에 적합한 디자인이 완성될 것입니다.  <br><br>
 ![Flow and Static](http://oingdoing.com/tips/all/img/responsive06.jpg)  
 <br><br>
-**최대값과 최소값 (Max and Min values)**  <br><br>
+**최대값과 최소값 (Max and Min values)**  <br>
 ![Max and Min](http://oingdoing.com/tips/all/img/responsive05.jpg)  <br>
 <br><br>
-**플로우 (Flow)**  <br><br>
+**플로우 (Flow)**  
 : 컨텐츠 크기 변화에 따라 주변에 함께 있는 컨텐츠의 흐름을 어떻게 할 것인가 정의합니다.  
-그림과 같이, Flow로 둔다면 함께 움직이는 것이고 static으로 둔다면 주변 컨텐츠는 고정되고 해당 컨텐츠만 변화하게 됩니다.  <br>
+그림과 같이, Flow로 둔다면 함께 움직이는 것이고 static으로 둔다면 주변 컨텐츠는 고정되고 해당 컨텐츠만 변화하게 됩니다.  <br><br>
 ![Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
 <br><br>
-**웹폰트와 시스템 폰트 (Webfonts vs System fonts)**  <br><br>
+**웹폰트와 시스템 폰트 (Webfonts vs System fonts)**  <br>
 : 
 ![Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg)  <br>
 
