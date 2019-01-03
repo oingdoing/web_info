@@ -141,6 +141,7 @@
 
 ### [꼭 읽어보아야 할 자료]
 + [모바일 UI·UX 디자인시 고려해야 할 가이드라인 1](https://brunch.co.kr/@chulhochoiucj0/8)  
++ [모바일 디자인할 때 그리드 시스템 꼭 사용해야 할까?](https://brunch.co.kr/@plusx/3)  
 
 <br><br>
 [참고]
