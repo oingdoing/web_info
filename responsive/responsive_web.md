@@ -19,7 +19,7 @@
 만약 모바일을 위한 작업에서 모든 단위를 px로 유지한다면 그림과 같이 viewport의 크기에 따라 컨텐츠가 잘리거나 모자라게 보일 수있습니다.  <br><br>
 ![Relative units](http://oingdoing.com/tips/all/img/responsive03.jpg)  
 <br><br>
-**분기점 (Breakpoints)**  <br>
+* **분기점 (Breakpoints)**  <br>
 : PC와 mobile은 viewport의 크기에 따라 레이아웃이 달라지는 것이 필수입니다. 그러다 보면 열(Column)의 개수도 달라집니다. 보통 pc보다 모바일이 열 개수가 적습니다.  
 이때, 어디에서 열을 끊어줄 것인지를 미리 정해놓는다면 환경에 적합한 디자인이 완성될 것입니다.  <br><br>
 ![Breakpoints](http://oingdoing.com/tips/all/img/responsive04.jpg)  
