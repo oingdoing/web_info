@@ -23,8 +23,22 @@
 : PC와 mobile은 viewport의 크기에 따라 레이아웃이 달라지는 것이 필수입니다. 그러다 보면 열(Column)의 개수도 달라집니다. 보통 pc보다 모바일이 열 개수가 적습니다.  
 이때, 어디에서 열을 끊어줄 것인지를 미리 정해놓는다면 환경에 적합한 디자인이 완성될 것입니다.  <br><br>
 ![Breakpoints](http://oingdoing.com/tips/all/img/responsive04.jpg)  
+
+> **해상도 분기에 따른 컨텐츠크기 조정**  
+> max-width : 1299px → 1280px (실질 컨텐츠 : 1240px)  
+> * max-width : 1024px 이상 일 경우 → 좌·우측 20px(총 40px)이상 유지  
+> max-width : 1024px → 1024px (실질 컨텐츠, PC와 동일 크기 : 984px)  
+> * max-width : 1023px 이하 일 경우 → 좌·우측 10px이상 유지  
+> max-width : 1023px → 768px (실질 컨텐츠 : 748px)  
+> max-width : 767px → 640px (실질 컨텐츠 : 620px)  
+> max-width : 639px → 480px (실질 컨텐츠 : 460px (~360px 조정가능) )  
+> max-width : 479px → 360px (실질 컨텐츠 : 340px)  
+> max-width : 359px → 320px (실질 컨텐츠 : 300px)
+
 <br><br>
 **최대값과 최소값 (Max and Min values)**  <br>
+: 모바일 장치에서 그런 것처럼 컨텐츠가 스크린의 전체 너비를 차지하는 것이 좋은 경우가 종종 있습니다. 그러나 같은 컨텐츠를 TV 스크린의 전체 너비만큼 늘리는 것은 별로 좋지 않을 것입니다.  
+예를 들어, 너비를 100%로 하고, 최대 너비를 1000px로 하는 것은 컨텐츠가 화면을 꽉 채우지만, 1000px을 넘지 않는다는 것을 의미합니다.
 ![Max and Min](http://oingdoing.com/tips/all/img/responsive05.jpg)  <br>
 <br><br>
 **플로우 (Flow)**  
@@ -33,7 +47,8 @@
 ![Flow and Static](http://oingdoing.com/tips/all/img/responsive02.jpg)  
 <br><br>
 **웹폰트와 시스템 폰트 (Webfonts vs System fonts)**  <br>
-: 
+: 디자인을 위해 다양한 폰트를 적재작소에 쓰는 것은 당연한 일입니다. 하지만 모바일 환경까지 고려한다면 웹폰트보다는 시스템 폰트의 활용성을 높이는 것이 효율적입니다.  
+특히 모바일 환경에서는 디바이스별 브라우저 자체의 시스템 폰트가 우선되기 때문에 더욱 그러합니다.
 ![Webfonts vs System fonts](http://oingdoing.com/tips/all/img/responsive08.jpg)  <br>
 
 <br><br>
@@ -75,6 +90,12 @@
 : 디자인을 하다보면 문단 내에서 텍스트의 줄바꿈까지 세심한 디자인을 하게 됩니다. 그러나 반응형의 경우, 모바일과 태블릿, PC까지 모든 디바이스의 줄바꿈을 각각 다르게 디자인한다면  
 유지보수에 어려움을 겪는 등의 비효율성을 초래할 수 있습니다. 따라서 텍스트 줄바꿈은 CSS를 이용하여 단어별로 묶어 끊을 수 있도록 권장합니다.  
 
++ **3-6. 폰트 사이즈 이슈**
+: 모바일에서 폰트 사이즈가 디바이스 넓이에 맞춰 비율대로 증가 할 수 있는가? 사용하여 가능하지만 정해진 폰트 사이즈로 보여질것인지 넓이에 따라 사이즈가 커저야 할 지 고민이 필요합니다.
+
+> **상대단위 사용에 대하여(px to em/rem/vh/vw/%)**  
+> 배율에 따른 px과 상대단위 변화    
+
 + [추가정보](https://brunch.co.kr/@chulhochoiucj0/8)  
 
 <br><br>
@@ -83,45 +104,39 @@
 : 뷰포트 변경에 따라 그리드 변화를 고려하여 레이아웃을 디자인한다.
 
 + [유동형 (Mostly Fluid)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/mostly-fluid.html)  
+![유동형 (Mostly Fluid)](./img/patter01.jpg)  
+    - 유동형 그리드 / 화면이 넓어지면 여백만 조정  
+    - 중형 화면에서는 동일한 크기 유지  
+    - 더 작은 화면에서는 열이 수직으로 쌓임  
+    - 소형과 대형 화면에서 중단점이 하나만 필요  
+
 + [열 끌어놓기(Column Drop)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/column-drop.html)  
+![열 끌어놓기(Column Drop)](./img/patter02.jpg)  
+    - 작은 화면에서 모든 열을 수직으로 쌓음  
+    - 이 패턴에서의 중단점은 콘텐츠나 디자인에 따라 바뀔 수 있음  
+
 + [레이아웃 시프터(Layout shifter)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/layout-shifter.html)  
+![레이아웃 시프터(Layout shifter)](./img/patter03.jpg)  
+    - 반응성이 가장 뛰어난 패턴  
+    - 자리재배치가 아닌 콘텐츠의 자리 이동 방식  
+    - 중단점 차이가 커서 유지관리가 어렵다  
+
 + [미세 조정(Tiny tweaks)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/tiny-tweaks.html)  
+![미세 조정(Tiny tweaks)](./img/patter04.jpg)  
+    - 모든 요소를 미세하게 조정  
+    - 1페이지 선형 웹사이트, 텍스트가 많은 문서 등 단일 열 레이아웃에 적합  
+
 + [오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html)  
+![오프 캔버스(Off canvas)](./img/patter05.jpg)  
+    - 컨텐츠를 수직으로 쌓지 않음  
+    - 사용 빈도가 낮은 콘텐츠(예: 탐색 또는 앱 메뉴)를 화면 밖에 배치  
+    (화면 크기가 충분히 커지면 표시작은 화면에서는 클릭했을 때만 등장)
 
 
-> - 모바일에서 폰트 사이즈가 디바이스 넓이에 맞춰 비율대로 증가 할 수 있는가?<br>
-> (vw 사용하여 가능하지만.. 정해진 폰트 사이즈로 보여질것인지 넓이에 따라 사이즈가 커저야 할 지 고민)
-> - Hover&터치 효과 고려
++ **Hover&터치 효과 고려**
+: PC에서의 mouse hover효과를 모바일에서는 어떻게 적용하는게 좋을까요? 효과를 제거하는 편이 좋을지, touch시에 반응하는 효과를 넣을지 고민해 볼 문제입니다.  
 
 <br><br>
-
-## 5. 반응형 웹의 퍼블리싱 이슈
-
-### 반응형웹 마크업 가이드 제작 전 고민사항
-
-**미디어쿼리 해상도 분기문제**  
-: 어느 포인트에서 해상도를 나눌 것인가? / 해상도기준(320,568,768,1024,1025~)  
-> **해상도 분기에 따른 컨텐츠크기 조정  
-> max-width : 1024px 이상 일 경우 → 좌·우측 20px(총 40px)이상 유지  
-> max-width : 1023px 이하 일 경우 → 좌·우측 10px이상 유지  
-
-**해상도 분기에 따른 컨텐츠크기 조정**  
-> max-width : 1299px → 1280px (실질 컨텐츠 : 1240px)  
-> max-width : 1024px → 1024px (실질 컨텐츠, PC와 동일 크기 : 984px)  
-> max-width : 1023px → 768px (실질 컨텐츠 : 748px)  
-> max-width : 767px → 640px (실질 컨텐츠 : 620px)  
-> max-width : 639px → 480px (실질 컨텐츠 : 460px (~360px 조정가능) )  
-> max-width : 479px → 360px (실질 컨텐츠 : 340px)  
-> max-width : 359px → 320px (실질 컨텐츠 : 300px)
-
-**가변적 그리드 기반의 레이아웃**  
-상단 자료 참고    
-
-**상대단위 사용에 대하여(px to em/rem/vh/vw/%)**  
-배율에 따른 px과 상대단위 변화    
-
-**최소단위 뷰포트(320px)에서의 문제점 해결**  
-미디어쿼리 뷰포트 구분하여 따로 스타일 지정  
 
 [참고]
 > [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
