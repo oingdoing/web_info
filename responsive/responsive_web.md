@@ -103,35 +103,35 @@
 
 : 뷰포트 변경에 따라 그리드 변화를 고려하여 레이아웃을 디자인한다.
 
-+ [유동형 (Mostly Fluid)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/mostly-fluid.html)  
++ **[유동형 (Mostly Fluid)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/mostly-fluid.html)**<br><br>
 ![유동형 (Mostly Fluid)](./img/patter01.jpg)  
     - 유동형 그리드 / 화면이 넓어지면 여백만 조정  
     - 중형 화면에서는 동일한 크기 유지  
     - 더 작은 화면에서는 열이 수직으로 쌓임  
     - 소형과 대형 화면에서 중단점이 하나만 필요  
-
-+ [열 끌어놓기(Column Drop)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/column-drop.html)  
+<br><br>
++ **[열 끌어놓기(Column Drop)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/column-drop.html)**<br><br>
 ![열 끌어놓기(Column Drop)](./img/patter02.jpg)  
     - 작은 화면에서 모든 열을 수직으로 쌓음  
     - 이 패턴에서의 중단점은 콘텐츠나 디자인에 따라 바뀔 수 있음  
-
-+ [레이아웃 시프터(Layout shifter)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/layout-shifter.html)  
+<br><br>
++ **[레이아웃 시프터(Layout shifter)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/layout-shifter.html)**<br><br>
 ![레이아웃 시프터(Layout shifter)](./img/patter03.jpg)  
     - 반응성이 가장 뛰어난 패턴  
     - 자리재배치가 아닌 콘텐츠의 자리 이동 방식  
     - 중단점 차이가 커서 유지관리가 어렵다  
-
-+ [미세 조정(Tiny tweaks)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/tiny-tweaks.html)  
+<br><br>
++ **[미세 조정(Tiny tweaks)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/tiny-tweaks.html)**<br><br>
 ![미세 조정(Tiny tweaks)](./img/patter04.jpg)  
     - 모든 요소를 미세하게 조정  
     - 1페이지 선형 웹사이트, 텍스트가 많은 문서 등 단일 열 레이아웃에 적합  
-
-+ [오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html)  
+<br><br>
++ **[오프 캔버스(Off canvas)](https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/off-canvas.html)**<br><br>
 ![오프 캔버스(Off canvas)](./img/patter05.jpg)  
     - 컨텐츠를 수직으로 쌓지 않음  
     - 사용 빈도가 낮은 콘텐츠(예: 탐색 또는 앱 메뉴)를 화면 밖에 배치  
     (화면 크기가 충분히 커지면 표시작은 화면에서는 클릭했을 때만 등장)
-
+<br><br>
 
 + **Hover&터치 효과 고려**
 : PC에서의 mouse hover효과를 모바일에서는 어떻게 적용하는게 좋을까요? 효과를 제거하는 편이 좋을지, touch시에 반응하는 효과를 넣을지 고민해 볼 문제입니다.  
