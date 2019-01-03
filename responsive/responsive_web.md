@@ -72,7 +72,8 @@
     : 웹 환경에서는 이미지 개수가 많을수록 많은 리소스를 잡아먹게 됩니다. 따라서 우리는 반응형 작업시 하나의 이미지로 여러 기기를 대응할 수 있는 방법을 선호합니다.  
     그래서 하나의 디자인 파일로 여러 기기에 대응이 가능하게 이미지를 추출해야 합니다. 이를 위해 이미지 파일은 최대한 크기 변형에도 문제 없는 스마트 오브젝트 사용을 권장합니다. (2배 사이즈 이미지)<br><br>
 
-    > [제안] 아이콘이나 로고에 SVG 이미지를 사용하기  
+    > [제안] 아이콘이나 로고에 SVG 이미지를 사용하기 (IE사용가능)  
+    (IE9-11 desktop & mobile don't properly scale SVG files. Adding height, width, viewBox, and CSS rules seem to be the best workaround.)  
     > [제안] 아이콘 글꼴 사용하기 ([ex. FontAwesome)](https://fontawesome.com/)  
 
     - 디바이스별 이미지 표시
