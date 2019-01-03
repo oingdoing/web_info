@@ -136,9 +136,13 @@
 
 <br><br>
 
++ **레이어팝업 크기 고정**  
+: 분기점에 맞춰 레이어 팝업 크기를 고정하고 스크롤이 생기게 할 것인지 / 최소값을 정하고 
+
 ### [꼭 읽어보아야 할 자료]
 + [모바일 UI·UX 디자인시 고려해야 할 가이드라인 1](https://brunch.co.kr/@chulhochoiucj0/8)  
 
+<br><br>
 [참고]
 > [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
 > [Google Web Fundamentals, "반응형 웹 디자인 패턴"](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko)  
