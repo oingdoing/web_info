@@ -82,7 +82,7 @@
         * 이미지를 비율에 맞춰 표시할 것인가?
         * 높이는 고정하되 이미지 정렬을 가운데로 놓을 것인가? (이미지의 가운데가 보이고 외곽은 잘리게 됨)
         * 각 디바이스마다 이미지의 높이와 보여지는 부분을 다르게 설정할 것인가?
-        * __디바이스별로 다른 이미지를 사용할 것인가?__  
+        * __디바이스별로 다른 이미지를 사용할 것인가?__  [(source의 활용)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_picture)  
 
     ![art_direction](./img/art-direction.png)  
 
