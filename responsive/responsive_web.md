@@ -96,8 +96,6 @@
 > **상대단위 사용에 대하여(px to em/rem/vh/vw/%)**  
 > 배율에 따른 px과 상대단위 변화    
 
-+ [추가정보](https://brunch.co.kr/@chulhochoiucj0/8)  
-
 <br><br>
 ## 4. 반응형 디자인 패턴 (레이아웃)
 
@@ -137,6 +135,9 @@
 : PC에서의 mouse hover효과를 모바일에서는 어떻게 적용하는게 좋을까요? 효과를 제거하는 편이 좋을지, touch시에 반응하는 효과를 넣을지 고민해 볼 문제입니다.  
 
 <br><br>
+
+## [꼭 읽어보아야 할 자료]
++ [모바일 UI·UX 디자인시 고려해야 할 가이드라인 1](https://brunch.co.kr/@chulhochoiucj0/8)  
 
 [참고]
 > [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
