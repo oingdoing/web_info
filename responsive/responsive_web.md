@@ -149,4 +149,5 @@
 [참고]
 > [FROONT, "9 basic principles of responsive web design"](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)  
 > [Google Web Fundamentals, "반응형 웹 디자인 패턴"](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko) > [디자인 아트, "반응형 디자인 패턴"](https://m.blog.naver.com/dartplus/221202644512)  
-> ["픽셀 밀도에 대한 설명"](https://brunch.co.kr/@ultra0034/23)
+> ["픽셀 밀도에 대한 설명"](https://brunch.co.kr/@ultra0034/23)  
+> ["PPI, DPI, DP/SP & PT란 무엇일까?"](http://uidesignguides.com/ppi-dpi-dp-sp-pt%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C/)
