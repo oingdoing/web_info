@@ -15,11 +15,63 @@ Reflow와 Repaint는 브라우저 렌더링 과정의 일부 입니다. 그렇�
 <br>
 ![rendering](./images/rendering.png)  
 
-**2. 랜더트리**
+**2. 랜더트리**  
+렌더 트리는 스타일 정보와 HTML 표시 규칙을 가진 객체다. 어찌보면 DOM 객체와 동일하다고 생각될 수 있는데, 비시각적인 요소는 렌더트리로 생성되지 않기 때문에 다르다고 말할 수 있다. (ex. style - display: none, <head> 등)
+<br>
+![rendering](./images/render_tree.png)  
+  
+### 2-2. Reflow : 랜더트리 배치
+
+크기와 위치에 맞게 브라우저에 배치하는 과정을 Reflow라고 힌다. 위치를 결정하는 방법에는 3가지가 존재힌다.  
+
+- Nomal: 문서의 위치에 따라 배치, DOM 트리와 동일  
+- Float: Normal과 같이 배치된 후, 끝(왼 or 오른)으로 이동  
+- Absolute: DOM 트리와 다른 자리에 배치  
+
+**Reflow 과정이 일어나는 상황**  
++ 노드의 추가 또는 제거시.  
++ 요소의 위치 변경 시.  
++ 요소의 크기 변경 시.(margin, padding, border, width, height, 등..)  
++ 폰트 변경 과(텍스트 내용) 이미지 크기 변경 시.(크기가 다른 이미지로 변경 시)  
++ 페이지 초기 랜더링 시.(최초 Layout 과정)  
++ 윈도우 리사이징 시.  
+
+**Reflow 발생 과정**  
+1. Click 이벤트 handler  
+2. Recalcurate(변경된 스타일 수치 계산 수행)  
+3. Layout(Reflow 과정 수행)  
+4. Paint(Repaint 과정 수행)  
 
 
-### 2-2. Reflow 과정이 일어나는 상황
+### 2-3. Repaint : 랜더트리 표현
 
-### 2-3. Repaint 과정이 일어나는 상황
+시각적인 요소가 표현되는 과정을 Repaint라고 한다. Reflow처럼 스타일의 모든 변경이 레이아웃 수치에 영향을 받는 것은 아니다.    
+Repaint 표현이 되는 순서로는 아래와 같다.  
+> 배경색 → 배경이미지 → 테두리 → 자식 → 아웃라인  
+
+**Repaint 발생 과정**  
+1. Click 이벤트 handler 
+2. Recalcurate(변경된 스타일 수치 계산 수행) 
+3. Paint(Repaint 과정 수행)
+
+
+출처: http://webclub.tistory.com/346 [Web Club]
 
 ## 3. 최적화 방법
+
+1. 변경이 잦은 요소는 Absolute에 배치한다.  
+
+2. 스타일 변경은 한번에 묶어서 처리한다.  
+
+3. 테이블은 점진적 배치에서 제외되기 때문에 사용을 지양한다.  
+
+4. 스타일을 최적화한다. (ex. css 최소화)  
+
+
+
+출처: http://heowc.tistory.com/83 [허원철의 개발 블로그]
+
+
+**[참고]**
+- [Reflow or Repain(or ReDraw)과정 설명 및 최적화 방법](http://webclub.tistory.com/346)  
+- [Reflow와 Repaint](http://heowc.tistory.com/83)
