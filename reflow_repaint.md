@@ -74,7 +74,7 @@ Repaint 표현이 되는 순서로는 아래와 같다.
 ─ cssText 및 클래스를 활용해 Reflow or Repaint 최소화하라.  
 ─ DOM과 스타일 변경을 하나로 묶어 리플로우 수행을 최소화 한다.
 
-
+<br><br>
 **[참고]**
 - [Reflow or Repain(or ReDraw)과정 설명 및 최적화 방법](http://webclub.tistory.com/346)  
 - [Reflow와 Repaint](http://heowc.tistory.com/83)
