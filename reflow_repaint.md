@@ -42,6 +42,7 @@ Reflow와 Repaint는 브라우저 렌더링 과정의 일부이다. 그렇기 �
 3. Layout(Reflow 과정 수행)  
 4. Paint(Repaint 과정 수행)  
 <br>
+
 ### 2-3. Repaint : 랜더트리 표현
 
 시각적인 요소가 표현되는 과정을 Repaint라고 한다. Reflow처럼 스타일의 모든 변경이 레이아웃 수치에 영향을 받는 것은 아니다.    
