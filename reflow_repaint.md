@@ -54,22 +54,12 @@ Repaint 표현이 되는 순서로는 아래와 같다.
 2. Recalcurate(변경된 스타일 수치 계산 수행) 
 3. Paint(Repaint 과정 수행)
 
-
-출처: http://webclub.tistory.com/346 [Web Club]
-
 ## 3. 최적화 방법
 
 1. 변경이 잦은 요소는 Absolute에 배치한다.  
-
 2. 스타일 변경은 한번에 묶어서 처리한다.  
-
 3. 테이블은 점진적 배치에서 제외되기 때문에 사용을 지양한다.  
-
 4. 스타일을 최적화한다. (ex. css 최소화)  
-
-
-
-출처: http://heowc.tistory.com/83 [허원철의 개발 블로그]
 
 
 **[참고]**
